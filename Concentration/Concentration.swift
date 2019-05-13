@@ -10,7 +10,7 @@ import Foundation
 
 public class Concentration {
     
-    private(set) var cards = [Card]()
+    private (set) var cards = [Card]()
     private var indexOfOneAndOnlyFaceUpCard: Int? {
         get {
             var foundIndex: Int?
