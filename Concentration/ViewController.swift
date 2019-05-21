@@ -25,7 +25,7 @@ public class ViewController: UIViewController {
     @IBOutlet private var cardButtons: [UIButton]!
     @IBOutlet private weak var flipCountLabel: UILabel!
     private var emojiChoices = ["👻", "🤡", "👾", "👹", "😈", "😼", "💀", "☠️", "👽"]
-    private var emoji = [Int : String]()
+    private var emoji = [Card : String]()
     
     
     @IBAction private func touchCard(_ sender: UIButton) {
@@ -51,10 +51,10 @@ public class ViewController: UIViewController {
     }
     
     private func emoji(for card: Card) -> String {
-        if emoji[card.id] == nil, emojiChoices.count > 0 {
-            emoji[card.id] = emojiChoices.remove(at: Int.random(in: 0...emojiChoices.count - 1))
+        if emoji[card] == nil, emojiChoices.count > 0 {
+            emoji[card] = emojiChoices.remove(at: Int.random(in: 0...emojiChoices.count - 1))
         }
-        return emoji[card.id] ?? "?"
+        return emoji[card] ?? "?"
     }
 }
 

@@ -13,7 +13,7 @@
 		E09AF652222861B600F72F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09AF651222861B600F72F58 /* Assets.xcassets */; };
 		E09AF655222861B600F72F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09AF653222861B600F72F58 /* LaunchScreen.storyboard */; };
 		E0B412CE222AF7DF00F9A254 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B412CD222AF7DF00F9A254 /* Concentration.swift */; };
-		E0B412D0222AF99900F9A254 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B412CF222AF99900F9A254 /* Card.swift */; };
+		E0E50BA622948A850003DA62 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E50BA522948A850003DA62 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		E09AF654222861B600F72F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E09AF656222861B600F72F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0B412CD222AF7DF00F9A254 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
-		E0B412CF222AF99900F9A254 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		E0E50BA522948A850003DA62 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				E09AF65C2228622900F72F58 /* Supporting files */,
 				E09AF64C222861B400F72F58 /* ViewController.swift */,
 				E0B412CD222AF7DF00F9A254 /* Concentration.swift */,
-				E0B412CF222AF99900F9A254 /* Card.swift */,
+				E0E50BA522948A850003DA62 /* Card.swift */,
 				E09AF64E222861B400F72F58 /* Main.storyboard */,
 				E09AF656222861B600F72F58 /* Info.plist */,
 			);
@@ -153,7 +153,7 @@
 				E09AF64D222861B400F72F58 /* ViewController.swift in Sources */,
 				E09AF64B222861B400F72F58 /* AppDelegate.swift in Sources */,
 				E0B412CE222AF7DF00F9A254 /* Concentration.swift in Sources */,
-				E0B412D0222AF99900F9A254 /* Card.swift in Sources */,
+				E0E50BA622948A850003DA62 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
