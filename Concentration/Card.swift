@@ -20,6 +20,10 @@ struct Card: Hashable {
         return idFactory
     }
     
+    static func ==(lhs: Card, rhs: Card) -> Bool {
+        return lhs.id == rhs.id
+    }
+    
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
     }
